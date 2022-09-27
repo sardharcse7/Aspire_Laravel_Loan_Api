@@ -22,9 +22,10 @@ step:5
 php artisan serve
 
 **Laravel Aspire Api List:**
-1. _Register Api_
+**1. Register Api**
 
  Url: http://localhost:8000/api/register
+ 
  method: POST
 
  Parameter:
@@ -40,10 +41,12 @@ php artisan serve
 }
 ![Passport_auth_register_postman](https://user-images.githubusercontent.com/7964507/192444379-d0ade28b-676f-4c99-8b3d-040a4daad17b.png)
 
-2. _Login Api:_
+**2. Login Api:**
+
 Url: http://localhost:8000/api/login
 
 method: POST
+
 parameter:
 form-data: 
 email:anas@gmail.com
@@ -56,7 +59,8 @@ password:12345678
 ![Passport_auth_login_postman](https://user-images.githubusercontent.com/7964507/192444461-57ac9214-ac28-45bf-aad1-56cfc6904d93.png)
 
 
-3._ Create Loan Api:_
+**3. Create Loan Api:**
+
 Url: http://localhost:8000/api/loans
 method: POST
 
@@ -90,7 +94,8 @@ Bearer Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiNDI1
 }
 ![Passport_auth_create_loan_withreponse_postman](https://user-images.githubusercontent.com/7964507/192444541-d0adc26c-d63f-46fd-a9a2-9ce997205f35.png)
 ![Passport_auth_create_loan_set_bearer_token_postman](https://user-images.githubusercontent.com/7964507/192444612-9969a576-6b8e-46b9-a4b3-2072f8619e85.png)
-_4. Repayment Api:_
+
+**4. Repayment Api:**
 Url: http://localhost:8000/api/repayment/4
 method: POST
 Parameter:
@@ -112,11 +117,13 @@ Bearer Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiNDI1
     }
 }
 
-_5. Loan list by user:_
+**5. Loan list by user:**
+
 Url: http://localhost:8000/api/loans
 method: GET
 Auth:
 Bearer Token = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiNDI1Y2YxY2ZmYzc4NTY5Y2VmOTNjODk1NjIxMTU1NDI4ODU0YTE5MTQxNzY5ZDM5YmUxN2VhZDNkYWFhNzg0N2RjM2QzMTZmYmU2NDhlZWUiLCJpYXQiOjE2NjQyNTI4MDYsIm5iZiI6MTY2NDI1MjgwNiwiZXhwIjoxNjk1Nzg4ODA2LCJzdWIiOiIxMiIsInNjb3BlcyI6W119.Zoa9JfhX9rtgqdL-7QIimHpW428znsIVD8hV4xeiVwCD0ckcKZPM5RUi54hY3YzagYYfQfclNYjRDsqveF1zyuHYs1n1wZWu11-gycA2tg2BHpNsG63h43-gowFEq4U6PDjaD5QHN1Mshpj9GI35TRd397DN9yvHyFFn3hIM4HNFLeLh8frmRYS8a_uxoVN1ztGgKdLfwZ0VrYIw0iDdO65sw8M2cOxzbmVrcBgCiecWUyUYXNAHMMqbLRRDeTRGjdFCs4ghyo5s2bkE3lqzqasAaZ98g2KFD2MxLcQ_qO4x3U3dOrRdYDfzWUIW-6CtV_fj8ohLgSQHeBnulkjiVp7dCsTgYMRkNypgSxAVoyLbflqW40QX2di9r9nlhy12NemWyzAr8B6YHs3VyMo47CMomJG_4WVc_Es-FWj8xxcvHDQfPYxUDIm-1hIMEwb9bcFEK1S1CCHNALjtVHbTsHC0677LZZNGmmsKvLmRmOVlkAN1NFRkNgzwrU089O94e4sZqVfZgXTg6tdRslkfUFJpT2eoSi4YrQ002s14tIBBpqxAgbT2ULTcqw4ByxFC0ZSzbbtBtQt6-2n3BnBl2V57Q0HqtEYR99YxyKqYDCV2f-tO0EEH3fwcQPMR6raB75d-PMg_o7rxSlezEAEoKfOk-G3ojDGoODMvJuGGuXM
+
 **Response:**
 {
     "success": true,
